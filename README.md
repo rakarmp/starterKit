@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![next-chakra-01 drawio](https://user-images.githubusercontent.com/83684256/205887925-4eb9a890-8856-4f45-9360-d64d60844ead.png)
 
 ## Getting Started
 
