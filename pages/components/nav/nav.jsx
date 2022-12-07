@@ -66,6 +66,9 @@ export default function Nav() {
                   <MenuItem>
                     <a href="https://instagram.com/rakarmp_fja">Instagram</a>
                   </MenuItem>
+                  <MenuItem>
+                    <a href="/blog">Blog</a>
+                  </MenuItem>
                 </MenuList>
               </Menu>
             </Stack>

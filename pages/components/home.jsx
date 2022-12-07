@@ -42,7 +42,7 @@ export default function PageHome() {
               variant="ghost"
               rightIcon={<SiNextdotjs />}
             ></Button>
-            with
+            +
             <Button
               colorScheme="brand"
               variant="ghost"
