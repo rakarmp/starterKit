@@ -2,6 +2,8 @@ import { MDXRemote } from "next-mdx-remote";
 import getPost from "../helpers/getPost";
 import getPosts from "../helpers/getPosts";
 import { serialize } from "next-mdx-remote/serialize";
+import { Button } from "@chakra-ui/react";
+import { ArrowForwardIcon } from "@chakra-ui/icons";
 
 function Post({ data, content }) {
   return (
@@ -11,6 +13,16 @@ function Post({ data, content }) {
       <p className="prose mt-12">
         <MDXRemote {...content} />
       </p>
+      <a href="/blog">
+        <Button
+          rightIcon={<ArrowForwardIcon />}
+          colorScheme="teal"
+          variant="outline"
+          marginTop={5}
+        >
+          Kembali
+        </Button>
+      </a>
     </div>
   );
 }
