@@ -69,6 +69,9 @@ export default function Nav() {
                   <MenuItem>
                     <a href="/blog">Blog</a>
                   </MenuItem>
+                  <MenuItem>
+                    <a href="/news">Fetch Data Exapmle</a>
+                  </MenuItem>
                 </MenuList>
               </Menu>
             </Stack>

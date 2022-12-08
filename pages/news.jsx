@@ -100,7 +100,7 @@ export default ArticleList;
 
 export async function getStaticProps() {
   const response = await fetch(
-    "https://api.spaceflightnewsapi.net/v3/articles"
+    `https://api.spaceflightnewsapi.net/v3/articles`
   );
   const article = await response.json();
   return {
