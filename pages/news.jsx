@@ -9,6 +9,7 @@ import {
   useColorModeValue,
   Container,
 } from "@chakra-ui/react";
+import Buttom from "./components/Button";
 
 const ArticleList = (props) => {
   const { article } = props;
@@ -90,7 +91,9 @@ const ArticleList = (props) => {
           </div>
         );
       })}
-
+      <a href="/">
+        <Buttom>Home</Buttom>
+      </a>
       <Divider marginTop="5" />
     </Container>
   );

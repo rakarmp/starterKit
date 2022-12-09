@@ -70,7 +70,7 @@ export default function Nav() {
                     <a href="/blog">Blog</a>
                   </MenuItem>
                   <MenuItem>
-                    <a href="/news">Fetch Data Exapmle</a>
+                    <a href="/news">News</a>
                   </MenuItem>
                 </MenuList>
               </Menu>
