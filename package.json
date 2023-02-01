@@ -13,7 +13,7 @@
     "@chakra-ui/react": "^2.4.2",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
-    "esbuild": "^0.14.54",
+    "esbuild": "^0.17.5",
     "framer-motion": "^7.6.19",
     "gray-matter": "^4.0.3",
     "mdx-bundler": "^9.0.1",
